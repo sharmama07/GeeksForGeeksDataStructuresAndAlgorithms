@@ -3,3 +3,5 @@
 *.class
 .vscode
 .settings
+.settings/org.eclipse.jdt.core.prefs
+target/classes/*
