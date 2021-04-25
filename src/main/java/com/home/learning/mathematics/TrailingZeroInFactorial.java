@@ -13,7 +13,7 @@ public class TrailingZeroInFactorial {
     private Integer findTrailingZeroInFactorial(Integer number) {
         Integer trailingZero = 0;
         Integer divisor =5;
-        while(number/divisor >0) {
+        while(number/divisor > 0 ) {
             trailingZero = trailingZero + number/divisor;
             divisor = divisor*5;
         }
